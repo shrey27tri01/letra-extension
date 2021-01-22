@@ -340,7 +340,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/70675656?v=4",
       "profile": "https://github.com/Koddi-Evangelista",
       "contributions": [
-        "translation"
+        "translation",
+        "test"
       ]
     },
     {
@@ -359,6 +360,150 @@
       "profile": "https://linhnguyen.dev",
       "contributions": [
         "test"
+      ]
+    },
+    {
+      "login": "Margu86",
+      "name": "Margu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44941663?v=4",
+      "profile": "https://www.technetex.com",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "mdjibril",
+      "name": "Jibril Dauda Muhammad",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34494733?v=4",
+      "profile": "https://github.com/mdjibril",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "adico1",
+      "name": "adico",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5412270?v=4",
+      "profile": "http://adico.tech",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "WyldWanderer",
+      "name": "WyldWanderer",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44330121?v=4",
+      "profile": "https://github.com/WyldWanderer",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "reginaalyssa",
+      "name": "Regina Alyssa Esguerra",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14865943?v=4",
+      "profile": "https://github.com/reginaalyssa",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "elenakout",
+      "name": "elenakout",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43803990?v=4",
+      "profile": "https://github.com/elenakout",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "j4ckofalltrades",
+      "name": "Jordan Duabe",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1442368?v=4",
+      "profile": "https://github.com/j4ckofalltrades",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "fanlan1210",
+      "name": "Fanlan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22187384?v=4",
+      "profile": "http://fanlan1210.github.io",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "DavidtKate",
+      "name": "DavidtKate",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61785708?v=4",
+      "profile": "https://github.com/DavidtKate",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "MoisesTR",
+      "name": "MTRIGUEROS",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/23252442?v=4",
+      "profile": "https://github.com/MoisesTR",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "gugacavalieri",
+      "name": "Gustavo Cavalieri Fernandes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4624484?v=4",
+      "profile": "https://gugacavalieri.github.io/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "mViolet",
+      "name": "Maria Belan-Crawford",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44656740?v=4",
+      "profile": "https://github.com/mViolet",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "mtsknn",
+      "name": "Matias Kinnunen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2226144?v=4",
+      "profile": "http://mtsknn.fi",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "DieBrise",
+      "name": "Delaney Sylvans",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25111543?v=4",
+      "profile": "http://delaneysylvans.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rookiemonkey",
+      "name": "Kevin Roi Basina",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/61614867?v=4",
+      "profile": "https://github.com/rookiemonkey",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dogagcmnr",
+      "name": "Doğa Göçmemer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51722645?v=4",
+      "profile": "http://dogagocmener.com",
+      "contributions": [
+        "translation"
       ]
     }
   ],

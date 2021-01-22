@@ -1,7 +1,7 @@
 {
   "name": "Letra",
   "description": "Passively learn a new language every time you open a new tab.",
-  "version": "1.0.11",
+  "version": "1.0.14",
   "manifest_version": 2,
   "permissions": ["storage"],
   "icons": {
@@ -18,6 +18,11 @@
     "scripts": [
       "background.js"
     ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "letra@letra.com"
+    }
   },
   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://code.responsivevoice.org/responsivevoice.js 'unsafe-eval'; object-src 'self'"
 }

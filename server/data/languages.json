@@ -19,6 +19,18 @@
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
   },
+  "chinese-traditional": {
+    "flag": "twa-china-taiwan-flag",
+    "voice": "Chinese Taiwan Female"
+  },
+  "croatian": {
+    "flag": "twa-croatia-flag",
+    "voice": "Croatian Male"
+  },
+  "dutch": {
+    "flag": "twa-netherlands-flag",
+    "voice": "Dutch Male"
+  },
   "filipino": {
     "flag": "twa-philippines-flag",
     "voice": "Filipino Female"
@@ -30,6 +42,10 @@
   "german": {
     "flag": "twa-germany-flag",
     "voice": "Deutsch Female"
+  },
+  "greek": {
+    "flag": "twa-greece-flag",
+    "voice": "Greek Female"
   },
   "hindi": {
     "flag": "twa-india-flag",

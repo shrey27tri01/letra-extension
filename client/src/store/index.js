@@ -6,7 +6,7 @@ import axios from 'axios';
 
 Vue.use(Vuex);
 
-export const currentLanguagesCount = 18;
+export const currentLanguagesCount = 24;
 
 export const state = {
   dailyData: {
@@ -81,7 +81,8 @@ export const actions = {
     axios
       .get(`${process.env.VUE_APP_API_URL}/languages`)
       .then(response => {
-        const options = Object.keys(response.data.languages);
+        // const options = Object.keys(response.data.languages);
+        const options = response.data.languages;
         chrome.storage.sync.set({ languageOptions: options });
         dispatch('saveLanguageOptions', options);
       })
@@ -89,6 +90,43 @@ export const actions = {
   },
   saveLanguageOptions({ commit }, options) {
     commit('setLanguageOptions', options);
+  },
+  toggleActiveLanguage({ commit, dispatch }, name) {
+    const other = state.dailyData.translations[name];
+    const { flag, voice, translation } = other;
+    const { word, romanization } = translation;
+
+    const thisTranslation = {
+      flag: state.dailyData.language.flag,
+      voice: state.dailyData.language.voice,
+      translation: {
+        translation: state.dailyData.word.translation,
+        word: state.dailyData.word.word,
+        romanization: state.dailyData.word.romanization
+          ? state.dailyData.word.romanization
+          : null,
+      },
+    };
+
+    const toggledDailyData = {
+      ...state.dailyData,
+      language: {
+        flag,
+        voice,
+      },
+      word: {
+        language: name,
+        translation: translation.translation,
+        word,
+        romanization,
+      },
+    };
+    const oldLanguage = state.dailyData.word.language;
+    toggledDailyData.translations[oldLanguage] = thisTranslation;
+
+    dispatch('saveDailyData', toggledDailyData);
+    chrome.storage.sync.set({ dailyData: toggledDailyData });
+    commit('setLoading', false);
   },
 };
 
